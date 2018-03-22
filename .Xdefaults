@@ -1,0 +1,17 @@
+URxvt.termName:		rxvt-256color
+URxvt.reverseVideo:	true
+! URxvt.scrollstyle:	plain
+URxvt.internalBorder:	1
+URxvt.saveLines:	10000
+URxvt.iso14755:		False
+URxvt.letterSpace:	-1
+URxvt.visualBell:	true
+URxvt.loginShell:	true
+URxvt.scrollTtyOutput:	false
+URxvt.skipScroll:	true
+URxvt.scrollBar:	false
+URxvt.fading:		40
+URxvt.perl-ext:
+URxvt.perl-ext-common:
+URxvt.font:		xft:LiberationMono:size=15
+! URxvt.font:		9x15
