@@ -1,0 +1,13 @@
+[user]
+name = jrbalderrama
+email = jrbalderrama@users.noreply.github.com
+
+[alias]
+	amend = commit --amend --no-edit
+	fixup = commit --fixup
+	tree = ls-tree --full-tree --name-only -r
+	history = log --oneline --decorate --all --graph
+        logname = log --oneline --name-status
+
+[core]
+	ignorecase = false
