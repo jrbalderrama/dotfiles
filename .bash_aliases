@@ -1,3 +1,13 @@
+alias date='TZ="CET" date && date --utc && TZ="BOT4" date'
+alias df='df --sync -h -x tmpfs -x devtmpfs'
 alias dotfiles='git --git-dir=$HOME/.config/dotfiles --work-tree=$HOME'
+alias du='du -h'
+alias find-name='find . -type f -name'
+alias find-content='grep -i -r -l'
+alias java='java -Dswing.aatext=true -Dawt.useSystemAAFontSettings=on'
+alias ls-dir='find * -prune -type d -exec ls --color=auto -d {} +'
+#            #find . -maxdepth 1 -type d -exec ls --color -d {} +
+alias mv='mv -i'
+alias rm='rm -i'
 alias shell='git --git-dir=$HOME/.config/shell --work-tree=$HOME'
-
+alias thunderbird='LC_TIME=en_GB.utf8 thunderbird'
