@@ -1,0 +1,4 @@
+! left handed/natural mouse scrolling
+pointer = 3 2 1 5 4 7 6 8 9 10 11 12
+! disable left windows(tm) key
+keycode 133 = NoSymbol
